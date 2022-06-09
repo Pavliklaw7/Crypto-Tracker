@@ -17,7 +17,7 @@ export default function (state = initialState, action) {
     case FETCHING_COIN_DATA:
       return Object.assign({}, state, {
         isFatching: true,
-        data: null,
+        data: [],
         hasError: false,
         errorMessage: null
       });
